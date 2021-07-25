@@ -160,3 +160,13 @@ https://developer.mozilla.org/ko/docs/Web/CSS/animation
 @media screen and (max-width: 400px) {
   
 } --> 스크린이 400px보다 작으면 css를 바꿈.
+
+reset css --> 기본적으로 부라우저에서 제공하는 body의 margin을 없애는 것
+h1, p tag같은 텍스트를 다루는 tag들을 가운데 정렬 할 때에는 text-align: center; 이용
+
+CSS Hack
+-레시피 같이 어디든 쓸 수 있다. 이상하지만 작동한다.
+-1 상위박스: justify-content: center; - 중앙으로 몰림
+-2 내부 박스 범위: width: 33%; -왼쪽으로 몰려서 범위 벌어짐, 왼쪽 위치할 박스는 왼쪽에 붙어서 정렬됨
+-3 중앙에 위치할 박스: display:flex; justify-content:center; = 중앙에 위치할 박스만 중앙에 위치함
+-4 오른쪽에 정렬할 박스: display:flex; justify-content:flex-end; align-items: center;- 오른쪽에 붙어서 정렬됨.
