@@ -104,7 +104,7 @@ button:focus{} --> 키보드로 선택되면 활성화됨.
 focus-within {} --> focus상태인 자식을 가진 부모 엘리먼트에 적용.
 
 
-의사요소::
+의사요소::  해당 HTML요소의 특정 부분만을 선택할 때 사용.
 Syntax
 selector::pseudo-element {
   property: value;
@@ -170,3 +170,15 @@ CSS Hack
 -2 내부 박스 범위: width: 33%; -왼쪽으로 몰려서 범위 벌어짐, 왼쪽 위치할 박스는 왼쪽에 붙어서 정렬됨
 -3 중앙에 위치할 박스: display:flex; justify-content:center; = 중앙에 위치할 박스만 중앙에 위치함
 -4 오른쪽에 정렬할 박스: display:flex; justify-content:flex-end; align-items: center;- 오른쪽에 붙어서 정렬됨.
+
+
+property: inherit --> 부모의 속성을 상속받음.
+
+Form has a strong attribute
+
+Action: 어떤 페이지로 data를 보낼 건지 지정할 수 있음.
+
+Method: POST--> 백앤드 서버에 정보를 보냄
+        GET --> 보안에 취약. URL에 정보를 담아 보냄
+
+box-size: border-box: box의 사이즈를 padding값이 바뀌어도 바뀌지 않게 함.
