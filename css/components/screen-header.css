@@ -14,3 +14,18 @@
     font-size: 32px;
     font-weight: 600;
 }
+
+.screen-header__icons {
+    position: relative;
+}
+
+.screen-header__notification {
+    background-color: #ff5727;
+    width: 6px;
+    height: 6px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    top: -12px;
+}
