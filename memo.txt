@@ -182,3 +182,5 @@ Method: POST--> 백앤드 서버에 정보를 보냄
         GET --> 보안에 취약. URL에 정보를 담아 보냄
 
 box-size: border-box: box의 사이즈를 padding값이 바뀌어도 바뀌지 않게 함.
+
+text-transform: text의 글자를 capitalize함.
