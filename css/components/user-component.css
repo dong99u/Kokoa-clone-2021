@@ -53,3 +53,8 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.main-screen a {
+    text-decoration: none;
+    color: #2e363e;
+}
