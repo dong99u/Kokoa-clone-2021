@@ -101,7 +101,7 @@ button:active{} --> 버튼이 선택되면 활성화됨.
 button:hover{} --> 버튼 위에 커서가 올라가면 활성화됨.
 button:focus{} --> 키보드로 선택되면 활성화됨.
 
-focus-within {} --> focus상태인 자식을 가진 부모 엘리먼트에 적용.
+focus-within {} --> 내부에 focus된 element가 있는지 확인
 
 
 의사요소::  해당 HTML요소의 특정 부분만을 선택할 때 사용.
@@ -154,6 +154,8 @@ https://developer.mozilla.org/ko/docs/Web/CSS/animation
   }
   0%~100% {}
 }
+
+animation: @keyframes time function forwards --> 마지막 keyframes to 값을 유지
 
 
 <반응형 웹 Media Query>
